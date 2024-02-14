@@ -1,4 +1,4 @@
-# PDFCHAD - A Modern Fullstack SaaS-Platform
+# PDFCHAD - A Modern Fullstack SaaS-Platform by Kumar
 
 Built with the Next.js 13.5 App Router, tRPC, TypeScript, Prisma & Tailwind
 
@@ -20,7 +20,6 @@ Built with the Next.js 13.5 App Router, tRPC, TypeScript, Prisma & Tailwind
 - 🌲 Pinecone as our Vector Storage
 - 📊 Prisma as our ORM
 - 🔤 100% written in TypeScript
-- 🎁 ...much more
 
 ## Getting started
 
@@ -33,6 +32,3 @@ change 'pdfchad' to whatever project name created in pinecone, stripe, planetsca
 change environment value "us-west4-gcp-free" in src/lib/pinecone.ts to the environment value of your pinecone project
 
 fill the .env out & and that's all you need to get started!
-
-
-
