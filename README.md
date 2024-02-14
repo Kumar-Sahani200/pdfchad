@@ -2,6 +2,10 @@
 
 Built with the Next.js 13.5 App Router, tRPC, TypeScript, Prisma & Tailwind
 
+## Purpose:
+
+- Allows people to upload and chat with a PDF
+
 ## Features
 
 - 🛠️ Complete SaaS Built From Scratch
@@ -20,6 +24,10 @@ Built with the Next.js 13.5 App Router, tRPC, TypeScript, Prisma & Tailwind
 - 🌲 Pinecone as our Vector Storage
 - 📊 Prisma as our ORM
 - 🔤 100% written in TypeScript
+
+## Note:
+
+- My Open AI credits have expired so the demo might not work
 
 ## Getting started
 
