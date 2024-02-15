@@ -22,6 +22,24 @@ export default function Home() {
           Simply upload your file and start asking questions right away.
         </p>
 
+        <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">
+          <span className="font-bold">Note:</span>This project's api has expired
+          and the DB must be in sleeping state right now
+        </p>
+
+        <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">
+          <span className="font-bold">Good News:</span>
+          <br />
+          This project's still works! You just need to have Pinecone and open ai
+          credits... and integrate few api(have mentioned in my repo's readme){" "}
+          <Link
+            href={"https://github.com/Kumar-Sahani200/pdfchad"}
+            className="underline"
+          >
+            Repo Link
+          </Link>
+        </p>
+
         <Link
           className={buttonVariants({
             size: "lg",
