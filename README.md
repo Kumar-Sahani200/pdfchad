@@ -30,9 +30,40 @@ npm install
 
 change 'pdfchad' to whatever project name created in pinecone, stripe, planetscale, kinde (keep same name for all the platform while creting keys for the .env)
 
-change environment value "us-west4-gcp-free" in src/lib/pinecone.ts to the environment value of your pinecone project
+Pinecone for long-term vector storage - https://www.pinecone.io/
+
+I prefer this tool for the DB: https://console.aiven.io
+
+Uploadthing for storing PDF files - https://uploadthing.com/dashboard
+
+OpenAI for answering PDF questions - https://platform.openai.com/
+
+Stripe for payment processing - https://stripe.com/
+
+change environment value "gcp-starter" in src/lib/pinecone.ts to the environment value of your pinecone project
+
+Do not forget to push the schema file into your database after you have created it!
+
+When you are shifting from localhost to cloud, don't forget to change the locahost:3000 from envs as well as from Kinde
 
 fill the .env out & and that's all you need to get started!
 
+## Env File example:
 
+KINDE_CLIENT_ID=
+KINDE_CLIENT_SECRET=
+KINDE_ISSUER_URL=
+KINDE_SITE_URL=
+KINDE_POST_LOGOUT_REDIRECT_URL=
+KINDE_POST_LOGIN_REDIRECT_URL=
 
+DATABASE_URL=
+
+UPLOADTHING_SECRET=
+UPLOADTHING_APP_ID=
+
+PINECONE_API_KEY=
+
+OPENAI_API_KEY=
+
+STRIPE_SECRET_KEY=

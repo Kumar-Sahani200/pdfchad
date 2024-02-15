@@ -35,6 +35,7 @@ export default function Home() {
           <Link
             href={"https://github.com/Kumar-Sahani200/pdfchad"}
             className="underline"
+            target="_blank"
           >
             Repo Link
           </Link>
